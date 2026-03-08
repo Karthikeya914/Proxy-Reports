@@ -1,11 +1,6 @@
 package com.example.reports;
 
-/**
- * REAL SUBJECT
- * This represents the expensive report file loader.
- * It now implements the Report abstraction so that clients
- * interact with the interface instead of the concrete class.
- */
+
 public class ReportFile implements Report {
 
     private final String reportId;
